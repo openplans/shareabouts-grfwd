@@ -110,6 +110,7 @@ textarea:focus {
   text-shadow: 1px -1px 1px rgba(0,0,0,0.5);
   max-width: 58%;
   margin: 0;
+  height: 2rem;
 }
 #site-title a:link,
 #site-title a:visited {
@@ -117,6 +118,7 @@ textarea:focus {
   color: #eee;
   float: left;
   height: 100%;
+  width: 100%;
 }
 #site-title a:hover {
   color: #fff;
@@ -124,10 +126,10 @@ textarea:focus {
 .site-logo {
   display: block;
   max-height: 1.25em;
-  width: auto;
 }
 @media only screen and (min-width: 60em) {
   #site-title {
+    height: 4rem;
     max-width: none;
     margin-right: 0.5em;
     margin-left: -0.5em;
